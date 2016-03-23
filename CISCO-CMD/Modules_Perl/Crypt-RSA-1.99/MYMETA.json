@@ -1,0 +1,55 @@
+{
+   "abstract" : "RSA public-key cryptosystem.",
+   "author" : [
+      "Vipul Ved Prakash <mail@vipul.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 0.75, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Crypt-RSA",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Loader" : "2.00",
+            "Convert::ASCII::Armour" : "0",
+            "Crypt::Blowfish" : "0",
+            "Crypt::CBC" : "0",
+            "Crypt::Primes" : "0.38",
+            "Crypt::Random" : "0.34",
+            "Data::Buffer" : "0",
+            "Data::Dumper" : "0",
+            "Digest::MD2" : "0",
+            "Digest::MD5" : "0",
+            "Digest::SHA1" : "0",
+            "ExtUtils::MakeMaker" : "7.1",
+            "Math::Pari" : "2.001804",
+            "Sort::Versions" : "0",
+            "Tie::EncryptedHash" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "1.97"
+}

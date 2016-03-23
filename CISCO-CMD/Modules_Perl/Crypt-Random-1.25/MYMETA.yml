@@ -1,0 +1,23 @@
+---
+abstract: unknown
+author:
+  - 'Vipul Ved Prakash <mail@vipul.net>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.142690'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Crypt-Random
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Class::Loader: '2.00'
+  Math::Pari: '2.001804'
+version: 1.25

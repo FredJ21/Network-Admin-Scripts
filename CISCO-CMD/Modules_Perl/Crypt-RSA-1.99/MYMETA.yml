@@ -1,0 +1,36 @@
+---
+abstract: 'RSA public-key cryptosystem.'
+author:
+  - 'Vipul Ved Prakash <mail@vipul.net>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Module::Install version 0.75, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Crypt-RSA
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Class::Loader: '2.00'
+  Convert::ASCII::Armour: '0'
+  Crypt::Blowfish: '0'
+  Crypt::CBC: '0'
+  Crypt::Primes: '0.38'
+  Crypt::Random: '0.34'
+  Data::Buffer: '0'
+  Data::Dumper: '0'
+  Digest::MD2: '0'
+  Digest::MD5: '0'
+  Digest::SHA1: '0'
+  ExtUtils::MakeMaker: '7.1'
+  Math::Pari: '2.001804'
+  Sort::Versions: '0'
+  Tie::EncryptedHash: '0'
+version: '1.97'

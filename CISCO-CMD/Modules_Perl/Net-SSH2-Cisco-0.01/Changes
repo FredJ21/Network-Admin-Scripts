@@ -1,0 +1,6 @@
+Revision history for Perl extension Net::SSH2::Cisco.
+
+0.01  Tue Jun 30 19:33:38 2015
+	- original version; created by h2xs 1.23 with options
+		-v 0.01 -XAn Net::SSH2::Cisco
+
