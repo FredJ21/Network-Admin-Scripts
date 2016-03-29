@@ -19,13 +19,12 @@ my $ip 		= "";
 my $user 	= "admin";
 
 my $line 	= "";
-
 my $host	= "";
 my @List_HOST;
-my $FILE = 'host.ini';
-my $FILE_OUT = 'cisco-cmd.out';
+my $FILE 	= 'host.ini';
+my $FILE_OUT 	= 'cisco-cmd.out';
 
-$CMD[0]  = 'show clock';
+$CMD[0]  	= 'show clock';
 
 if ($ARGV[0]) { @CMD = split(';', $ARGV[0]); }
 

@@ -5,7 +5,7 @@ $ARP_FILE  = "show-ip-arp";
 $MAC_FILE  = "show-mac-address";
 
 
-
+# -------------------------------  parse ip arp
 open ($F, "<", $ARP_FILE);
 while ($LINE = <$F>) {
         chomp $LINE;
@@ -31,13 +31,14 @@ while ($LINE = <$F>) {
 }
 close $F;
 
+# -------------------------------  parse mac address
 open ($F, "<", $MAC_FILE);
 while ($LINE = <$F>) {
         chomp $LINE;
 
-		$INT  = substr($LINE, 0, 9);
-		$VLAN = substr($LINE, 9, 3);
-		$MAC  = substr($LINE, 13, 16);
+		$VLAN = substr($LINE, 1, 4);
+		$MAC  = substr($LINE, 8, 16);
+		$INT  = substr($LINE, 38, 9);
 
 		$INT  =~ s/ //g;
 		$VLAN =~ s/ //g;

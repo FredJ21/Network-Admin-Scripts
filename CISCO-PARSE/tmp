@@ -1,415 +1,368 @@
-   1    2c36.f8c8.0f1b    DYNAMIC     Gi1/0/5
-   1    2c36.f8d6.7f9c    DYNAMIC     Gi1/0/2
-   1    a456.3029.9d30    DYNAMIC     Gi3/0/11
-   1    a456.3029.b2b0    DYNAMIC     Gi2/0/12
-   1    a456.304a.f233    DYNAMIC     Gi1/0/3
-   1    a456.304a.f3b4    DYNAMIC     Gi1/0/6
-   1    a456.304a.f730    DYNAMIC     Gi3/0/12
-   1    a456.304a.fe33    DYNAMIC     Gi1/0/11
-   1    a456.3066.842f    DYNAMIC     Gi3/0/46
-   1    c40a.cb6f.541c    DYNAMIC     Gi1/0/7
-   2    0011.0af0.7791    DYNAMIC     Gi1/0/6
-   2    0013.2124.3d61    DYNAMIC     Gi1/0/6
-   2    0014.38e1.bd03    DYNAMIC     Gi1/0/6
-   2    0014.38ea.ce1a    DYNAMIC     Gi1/0/6
-   2    0015.2100.1217    DYNAMIC     Gi1/0/6
-   2    0015.2100.127b    DYNAMIC     Gi1/0/6
-   2    0080.9171.1ad1    DYNAMIC     Gi1/0/5
-   2    0080.9171.e242    DYNAMIC     Gi1/0/6
-   2    082e.5f18.9460    DYNAMIC     Gi1/0/6
-   2    28d2.445c.27ec    DYNAMIC     Gi1/0/6
-   2    2c27.d71f.5533    DYNAMIC     Gi1/0/5
-   2    2c27.d724.c112    DYNAMIC     Gi1/0/6
-   2    2c41.3896.a145    DYNAMIC     Gi1/0/5
-   2    4437.e6b9.ba2b    DYNAMIC     Gi1/0/6
-   2    448a.5b71.5545    DYNAMIC     Gi1/0/6
-   2    448a.5b74.6cee    DYNAMIC     Gi1/0/6
-   2    448a.5bc7.f429    DYNAMIC     Gi1/0/6
-   2    448a.5be2.b95d    DYNAMIC     Gi1/0/6
-   2    448a.5be2.b97b    DYNAMIC     Gi1/0/6
-   2    448a.5be2.b9d1    DYNAMIC     Gi1/0/6
-   2    448a.5be2.be9b    DYNAMIC     Gi1/0/6
-   2    6431.5038.775c    DYNAMIC     Gi1/0/6
-   2    6c0b.8498.42c2    DYNAMIC     Gi1/0/6
-   2    6c0b.8498.4336    DYNAMIC     Gi1/0/6
-   2    ac16.2d08.08e4    DYNAMIC     Gi1/0/5
-   2    d485.6405.f261    DYNAMIC     Gi1/0/6
-   2    d485.640b.4337    DYNAMIC     Gi1/0/6
-   2    e839.355c.b840    DYNAMIC     Gi1/0/6
-   2    fc4d.d4f3.c8eb    DYNAMIC     Gi1/0/6
-   2    fc4d.d4f4.e9f7    DYNAMIC     Gi1/0/6
-   3    001b.78eb.7a25    DYNAMIC     Gi1/0/7
-   3    0080.916e.9341    DYNAMIC     Gi1/0/7
-   3    0080.916e.940c    DYNAMIC     Gi1/0/7
-   3    0080.9171.9344    DYNAMIC     Gi1/0/7
-   3    082e.5f13.f654    DYNAMIC     Gi1/0/7
-   3    082e.5f1b.42d0    DYNAMIC     Gi1/0/7
-   3    4437.e6b9.062b    DYNAMIC     Gi1/0/7
-   3    4437.e6bb.42be    DYNAMIC     Gi1/0/7
-   3    4437.e6bb.6813    DYNAMIC     Gi1/0/7
-   3    448a.5be2.b950    DYNAMIC     Gi1/0/7
-   3    6c0b.840a.e2b6    DYNAMIC     Gi1/0/7
-   3    6c0b.840a.f311    DYNAMIC     Gi1/0/7
-   3    80c1.6ee2.2d23    DYNAMIC     Gi1/0/7
-   3    e839.3555.39e8    DYNAMIC     Gi1/0/7
-   3    e839.355c.afad    DYNAMIC     Gi1/0/7
-   3    e839.355f.21e5    DYNAMIC     Gi1/0/7
-   3    fc4d.d449.98ba    DYNAMIC     Gi1/0/7
-   3    fc4d.d44a.8459    DYNAMIC     Gi1/0/7
-   3    fc4d.d44a.8b4b    DYNAMIC     Gi1/0/7
-   3    fc4d.d44a.8da2    DYNAMIC     Gi1/0/7
-   3    fc4d.d44a.9031    DYNAMIC     Gi1/0/7
-   3    fc4d.d44a.e173    DYNAMIC     Gi1/0/7
-   3    fc4d.d44a.e174    DYNAMIC     Gi1/0/7
-   3    fc4d.d44a.e18b    DYNAMIC     Gi1/0/7
-   3    fc4d.d4f3.c8df    DYNAMIC     Gi1/0/7
-   6    0011.0aeb.1911    DYNAMIC     Gi1/0/11
-   6    0014.3864.9c54    DYNAMIC     Gi1/0/11
-   6    001b.78ec.1ae6    DYNAMIC     Gi1/0/11
-   6    001b.78ec.48e1    DYNAMIC     Gi1/0/11
-   6    0080.9171.ac49    DYNAMIC     Gi1/0/11
-   6    082e.5f18.9415    DYNAMIC     Gi1/0/11
-   6    4437.e6b9.baaa    DYNAMIC     Gi1/0/11
-   6    f0de.f11b.096f    DYNAMIC     Gi1/0/11
-   6    f0de.f1eb.cf78    DYNAMIC     Gi1/0/11
-   6    fc4d.d4f1.2e9b    DYNAMIC     Gi1/0/11
-   7    0001.e63b.f5ee    DYNAMIC     Gi1/0/11
-   7    0001.e66f.03b3    DYNAMIC     Gi1/0/11
-   7    001b.78e7.11a9    DYNAMIC     Gi1/0/11
-   7    001b.78ed.54c7    DYNAMIC     Gi1/0/11
-   7    001b.78ee.255a    DYNAMIC     Gi1/0/11
-   7    001e.0b05.16f6    DYNAMIC     Gi1/0/11
-   7    0050.b65c.63a6    DYNAMIC     Gi1/0/11
-   7    0050.b669.dc79    DYNAMIC     Gi1/0/11
-   7    0050.b669.dc8e    DYNAMIC     Gi1/0/11
-   7    00e0.8179.1aa8    DYNAMIC     Gi1/0/11
-   7    24be.050d.a3f4    DYNAMIC     Gi1/0/11
-   7    28d2.445c.1ddf    DYNAMIC     Gi1/0/11
-   7    28d2.445c.27ed    DYNAMIC     Gi1/0/11
-   7    28d2.44b3.764f    DYNAMIC     Gi1/0/11
-   7    4437.e6b8.f8a1    DYNAMIC     Gi1/0/11
-   7    4437.e6b9.054d    DYNAMIC     Gi1/0/11
-   7    507b.9d33.5922    DYNAMIC     Gi1/0/11
-   7    68f7.28e6.aea5    DYNAMIC     Gi1/0/11
-   7    78e7.d1a3.3e6a    DYNAMIC     Gi1/0/11
-   7    b870.f4db.2ccd    DYNAMIC     Gi1/0/11
-   7    f0de.f1ab.aa99    DYNAMIC     Gi1/0/11
-   7    fc4d.d44a.e172    DYNAMIC     Gi1/0/11
-  10    001b.78e9.180a    DYNAMIC     Gi1/0/2
-  10    001b.78ed.de77    DYNAMIC     Gi1/0/2
-  10    4437.e6b9.bae6    DYNAMIC     Gi1/0/2
-  10    448a.5bc7.f42b    DYNAMIC     Gi1/0/2
-  10    448a.5be2.b94d    DYNAMIC     Gi1/0/2
-  10    448a.5be2.b959    DYNAMIC     Gi1/0/2
-  10    6c0b.840b.5e59    DYNAMIC     Gi1/0/2
-  10    e839.3555.39e7    DYNAMIC     Gi1/0/2
-  10    fc4d.d4f3.c81d    DYNAMIC     Gi1/0/2
-  10    fc4d.d4f3.c8ec    DYNAMIC     Gi1/0/2
-  10    fc4d.d4f3.c926    DYNAMIC     Gi1/0/2
-  10    fc4d.d4f4.f004    DYNAMIC     Gi1/0/2
-  15    0001.e677.2140    DYNAMIC     Gi3/0/46
-  15    000e.7fe4.f32f    DYNAMIC     Gi3/0/46
-  15    0010.83f2.c5c0    DYNAMIC     Gi3/0/46
-  15    0015.2100.1210    DYNAMIC     Gi3/0/46
-  15    0030.c156.024e    DYNAMIC     Gi3/0/46
-  15    0030.c1ac.617c    DYNAMIC     Gi3/0/46
-  15    0030.c1cc.bf05    DYNAMIC     Gi3/0/46
-  15    0080.9169.cc16    DYNAMIC     Gi3/0/46
-  15    0080.916e.9422    DYNAMIC     Gi3/0/46
-  15    0080.91ac.296b    DYNAMIC     Gi3/0/46
-  15    28d2.44ac.1f86    DYNAMIC     Gi3/0/46
-  15    28d2.44e0.de7c    DYNAMIC     Gi3/0/46
-  15    4437.e6b9.0078    DYNAMIC     Gi3/0/46
-  15    4437.e6b9.061b    DYNAMIC     Gi3/0/46
-  15    4437.e6b9.baa1    DYNAMIC     Gi3/0/46
-  15    4437.e6bb.69ce    DYNAMIC     Gi3/0/46
-  15    4437.e6bb.69e3    DYNAMIC     Gi3/0/46
-  15    448a.5b75.aab3    DYNAMIC     Gi3/0/46
-  15    448a.5bc7.f4f2    DYNAMIC     Gi3/0/46
-  15    448a.5bc7.f4f8    DYNAMIC     Gi3/0/46
-  15    54ee.7583.4e68    DYNAMIC     Gi3/0/46
-  15    68f7.2815.494d    DYNAMIC     Gi3/0/46
-  15    68f7.281f.ffc0    DYNAMIC     Gi3/0/46
-  15    68f7.287f.648d    DYNAMIC     Gi3/0/46
-  15    e839.3555.3c77    DYNAMIC     Gi3/0/46
-  15    fc4d.d44a.e17d    DYNAMIC     Gi3/0/46
-  15    fc4d.d44a.e18c    DYNAMIC     Gi3/0/46
-  15    fc4d.d4da.5fb9    DYNAMIC     Gi3/0/46
-  15    fc4d.d4da.5fbe    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f3.c4f5    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f3.c8e6    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f3.c8e9    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f3.c953    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f3.c95c    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f3.c973    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f4.d342    DYNAMIC     Gi3/0/46
-  15    fc4d.d4f4.eb25    DYNAMIC     Gi3/0/46
-  16    0001.e629.1ad6    DYNAMIC     Gi3/0/46
-  16    0001.e658.b604    DYNAMIC     Gi3/0/46
-  16    001b.78f5.a997    DYNAMIC     Gi3/0/46
-  16    0050.b65b.2d4c    DYNAMIC     Gi3/0/46
-  16    0050.b65b.2d51    DYNAMIC     Gi3/0/46
-  16    0050.b65c.60eb    DYNAMIC     Gi3/0/46
-  16    0050.b667.1820    DYNAMIC     Gi3/0/46
-  16    0080.9171.0788    DYNAMIC     Gi3/0/46
-  16    0080.9171.e2ef    DYNAMIC     Gi3/0/46
-  16    089e.011a.7ad0    DYNAMIC     Gi3/0/46
-  16    24be.050f.5a7d    DYNAMIC     Gi3/0/46
-  16    28d2.445c.aadd    DYNAMIC     Gi3/0/46
-  16    28d2.445c.aae7    DYNAMIC     Gi3/0/46
-  16    4437.e6b9.060a    DYNAMIC     Gi3/0/46
-  16    4437.e6b9.b703    DYNAMIC     Gi3/0/46
-  16    4437.e6b9.b90d    DYNAMIC     Gi3/0/46
-  16    4437.e6bb.6a11    DYNAMIC     Gi3/0/46
-  16    4439.c439.02b9    DYNAMIC     Gi3/0/46
-  16    448a.5bc7.f4ef    DYNAMIC     Gi3/0/46
-  16    448a.5be2.baba    DYNAMIC     Gi3/0/46
-  16    507b.9d4e.206e    DYNAMIC     Gi3/0/46
-  16    68f7.287f.628b    DYNAMIC     Gi3/0/46
-  16    fc4d.d438.c51e    DYNAMIC     Gi3/0/46
-  16    fc4d.d4da.5fc0    DYNAMIC     Gi3/0/46
-  16    fc4d.d4da.5fc1    DYNAMIC     Gi3/0/46
-  16    fc4d.d4da.5fcc    DYNAMIC     Gi3/0/46
-  16    fc4d.d4da.5fda    DYNAMIC     Gi3/0/46
-  16    fc4d.d4f1.2e75    DYNAMIC     Gi3/0/46
-  16    fc4d.d4f4.ea26    DYNAMIC     Gi3/0/46
-  16    fc4d.d4f4.efb7    DYNAMIC     Gi3/0/46
-  17    0015.2101.0be0    DYNAMIC     Gi3/0/46
-  17    001b.78f5.4457    DYNAMIC     Gi3/0/46
-  17    001b.78f6.b17b    DYNAMIC     Gi3/0/46
-  17    0080.9171.e071    DYNAMIC     Gi3/0/46
-  17    0080.9171.e306    DYNAMIC     Gi3/0/46
-  17    082e.5f13.f633    DYNAMIC     Gi3/0/46
-  17    0c4d.e9aa.7e61    DYNAMIC     Gi3/0/46
-  17    28d2.445c.27eb    DYNAMIC     Gi3/0/46
-  17    3cd9.2b68.8b08    DYNAMIC     Gi3/0/46
-  17    448a.5be2.b900    DYNAMIC     Gi3/0/46
-  17    507b.9d2d.9859    DYNAMIC     Gi3/0/46
-  17    507b.9d33.55b8    DYNAMIC     Gi3/0/46
-  17    685b.35b4.20c7    DYNAMIC     Gi3/0/46
-  17    80c1.6ee2.2966    DYNAMIC     Gi3/0/46
-  17    ac87.a318.cd73    DYNAMIC     Gi3/0/46
-  17    d8cb.8a41.df10    DYNAMIC     Gi3/0/46
-  17    fc4d.d438.c51d    DYNAMIC     Gi3/0/46
-  17    fc4d.d449.987d    DYNAMIC     Gi3/0/46
-  17    fc4d.d449.9ad4    DYNAMIC     Gi3/0/46
-  17    fc4d.d4f4.d054    DYNAMIC     Gi3/0/46
-  17    fc4d.d4f4.e93f    DYNAMIC     Gi3/0/46
-  17    fc4d.d4f4.e953    DYNAMIC     Gi3/0/46
-  17    fc4d.d4f4.ea25    DYNAMIC     Gi3/0/46
-  17    fc4d.d4f4.eb08    DYNAMIC     Gi3/0/46
-  17    fc4d.d4f4.eb57    DYNAMIC     Gi3/0/46
- 250    2c36.f89e.ab41    DYNAMIC     Gi2/0/43
- 250    2c36.f8d6.6ec1    DYNAMIC     Gi3/0/46
- 250    2c36.f8d6.7fc1    DYNAMIC     Gi1/0/2
- 250    3c0e.2337.5341    DYNAMIC     Gi3/0/43
- 250    a456.3029.9d41    DYNAMIC     Gi3/0/11
- 250    a456.3029.b2c1    DYNAMIC     Gi2/0/12
- 250    a456.304a.f3c1    DYNAMIC     Gi1/0/6
- 250    a456.3066.8441    DYNAMIC     Gi3/0/46
- 250    a456.3066.85c1    DYNAMIC     Gi3/0/46
- 250    a456.3066.86c1    DYNAMIC     Gi3/0/46
- 250    c40a.cb6f.5441    DYNAMIC     Gi1/0/7
- 250    d4a0.2af3.f4c1    DYNAMIC     Gi3/0/46
- 700    0003.bacc.3c59    DYNAMIC     Gi2/0/1
- 700    001a.64cb.e5da    DYNAMIC     Gi3/0/41
- 700    001b.7875.a07c    DYNAMIC     Gi2/0/30
- 700    001f.2967.527c    DYNAMIC     Gi2/0/38
- 700    0021.281a.769e    DYNAMIC     Gi2/0/2
- 700    0021.5e55.a7f8    DYNAMIC     Gi3/0/41
- 700    0025.903b.551a    DYNAMIC     Gi2/0/35
- 700    00d0.b80c.031e    DYNAMIC     Gi2/0/33
- 700    0800.2050.14a0    DYNAMIC     Gi2/0/5
- 700    1060.4b9c.a400    DYNAMIC     Gi2/0/7
- 700    1060.4b9c.a468    DYNAMIC     Gi2/0/8
- 700    2c44.fd7a.1fa8    DYNAMIC     Gi2/0/41
- 700    2c59.e542.3130    DYNAMIC     Gi2/0/6
- 700    2c59.e542.57fc    DYNAMIC     Gi2/0/17
- 700    4437.e6bb.6800    DYNAMIC     Gi3/0/42
- 700    a45d.3611.0148    DYNAMIC     Gi2/0/15
- 700    a45d.3611.014b    DYNAMIC     Gi2/0/15
- 700    b4b5.2f65.04b8    DYNAMIC     Gi2/0/42
- 700    d89d.6779.a844    DYNAMIC     Gi2/0/34
- 700    e41f.13b1.6d39    DYNAMIC     Gi2/0/40
- 700    e41f.13be.6d38    DYNAMIC     Gi2/0/29
- 700    f092.1c10.37a8    DYNAMIC     Gi2/0/16
- 710    0009.0fa0.1f86    DYNAMIC     Gi3/0/45
- 150    0080.9fbf.2058    DYNAMIC     Gi3/0/43
- 150    0080.9fbf.f346    DYNAMIC     Gi3/0/46
- 150    0080.9fd2.140c    DYNAMIC     Gi3/0/43
- 150    0080.9fd2.1432    DYNAMIC     Gi3/0/43
- 150    0080.9fd2.1468    DYNAMIC     Gi3/0/43
- 150    0080.9fd2.5aae    DYNAMIC     Gi3/0/46
- 150    0080.9fd7.bce0    DYNAMIC     Gi3/0/43
- 150    0080.9fd7.c61e    DYNAMIC     Gi3/0/43
-1110    6412.250b.1017    DYNAMIC     Gi3/0/46
-1110    d072.dcba.4bf5    DYNAMIC     Gi3/0/11
-1110    d072.dcef.72b1    DYNAMIC     Gi3/0/11
-1110    d072.dcef.77c6    DYNAMIC     Gi3/0/46
-1111    0811.9691.db60    DYNAMIC     Gi3/0/46
-1111    185e.0fa6.92fd    DYNAMIC     Gi3/0/46
-1111    28e3.475e.9fda    DYNAMIC     Gi3/0/11
-1111    2cd0.5a00.a4a5    DYNAMIC     Gi3/0/46
-1111    3010.b398.418a    DYNAMIC     Gi3/0/46
-1111    3052.cb78.31f9    DYNAMIC     Gi3/0/46
-1111    5435.3074.a1e1    DYNAMIC     Gi3/0/46
-1111    5435.3074.a1e9    DYNAMIC     Gi3/0/46
-1111    74e5.0b86.3846    DYNAMIC     Gi3/0/11
-1111    84a6.c864.d958    DYNAMIC     Gi3/0/11
-1111    84a6.c864.da39    DYNAMIC     Gi3/0/46
-1111    8c70.5a7c.001c    DYNAMIC     Gi3/0/46
-1111    8c70.5a7c.08f0    DYNAMIC     Gi3/0/46
-1111    9048.9ac5.9b19    DYNAMIC     Gi3/0/46
-1111    acb5.7d74.bc77    DYNAMIC     Gi3/0/46
-1111    acb5.7db3.8b87    DYNAMIC     Gi3/0/46
-1111    b886.8741.633b    DYNAMIC     Gi3/0/46
-1111    b886.8752.fb8f    DYNAMIC     Gi3/0/46
-1111    b886.8753.183d    DYNAMIC     Gi3/0/46
-1111    c48e.8f46.6ca1    DYNAMIC     Gi3/0/46
-  22    0080.9fe8.c877    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.c882    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.c887    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.c8cb    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.c96b    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.c96f    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.c975    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.c97d    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.c983    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.c985    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.c98f    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.c9b7    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.c9d1    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.c9e0    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d327    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d32c    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d32e    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d330    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d336    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d337    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d339    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d33b    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d33c    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d33e    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d359    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d35e    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d370    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d372    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d376    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d391    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d3ad    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d3c7    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d3ca    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d3cc    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d3d2    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d3d8    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d3de    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d3e5    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d404    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d41d    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d41e    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d420    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d423    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d42b    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d437    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d43a    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d43d    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d43e    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d43f    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d45e    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d464    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d477    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d47c    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d47f    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d480    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d481    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d484    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d485    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d486    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d48a    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d492    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d493    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d494    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d496    DYNAMIC     Gi3/0/11
-  22    0080.9fe8.d49e    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d4a0    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d4a5    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d4af    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d4b4    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d4e0    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d4e8    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d4ea    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d4f3    DYNAMIC     Gi2/0/12
-  22    0080.9fe8.d54b    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d5aa    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d5bd    DYNAMIC     Gi3/0/12
-  22    0080.9fe8.d5c1    DYNAMIC     Gi3/0/12
-  33    001f.291b.234c    DYNAMIC     Gi3/0/12
-  33    0080.91af.437d    DYNAMIC     Gi3/0/12
-  33    0080.91b0.e790    DYNAMIC     Gi3/0/12
-  33    082e.5f13.ec46    DYNAMIC     Gi3/0/12
-  33    082e.5f13.f631    DYNAMIC     Gi3/0/12
-  33    082e.5f18.96e4    DYNAMIC     Gi3/0/12
-  33    082e.5f1b.0320    DYNAMIC     Gi3/0/12
-  33    082e.5f1b.0610    DYNAMIC     Gi3/0/12
-  33    24be.050f.5a35    DYNAMIC     Gi3/0/12
-  33    24be.050f.5a58    DYNAMIC     Gi3/0/12
-  33    24be.050f.5a62    DYNAMIC     Gi3/0/12
-  33    2c41.3896.a14b    DYNAMIC     Gi3/0/12
-  33    2c41.3897.9a3f    DYNAMIC     Gi3/0/12
-  33    4437.e6b9.badd    DYNAMIC     Gi3/0/12
-  33    4437.e6bb.69fe    DYNAMIC     Gi3/0/12
-  33    448a.5be2.b97d    DYNAMIC     Gi3/0/12
-  33    6c0b.840b.5998    DYNAMIC     Gi3/0/12
-  33    6c0b.840b.5d45    DYNAMIC     Gi3/0/12
-  33    80c1.6ee6.92e2    DYNAMIC     Gi3/0/12
-  33    80c1.6ee6.95cd    DYNAMIC     Gi3/0/12
-  33    80c1.6ee6.9dfc    DYNAMIC     Gi3/0/12
-  33    d8cb.8a42.65e7    DYNAMIC     Gi3/0/12
-  33    fc4d.d44a.9093    DYNAMIC     Gi3/0/12
-  34    000c.2918.4974    DYNAMIC     Gi3/0/11
-  34    000c.2947.1443    DYNAMIC     Gi2/0/12
-  34    000c.2952.b5d8    DYNAMIC     Gi2/0/12
-  34    000c.2978.7706    DYNAMIC     Gi3/0/11
-  34    000c.2998.d210    DYNAMIC     Gi2/0/12
-  34    000c.2999.2eb0    DYNAMIC     Gi3/0/11
-  34    000c.29bc.a7dc    DYNAMIC     Gi2/0/12
-  34    000c.29c5.4320    DYNAMIC     Gi3/0/11
-  34    000c.29d8.41ec    DYNAMIC     Gi2/0/12
-  34    000c.29e6.35f9    DYNAMIC     Gi2/0/12
-  34    000c.29ef.d24b    DYNAMIC     Gi3/0/11
-  34    0080.91ab.8318    DYNAMIC     Gi2/0/12
-  34    0080.91b0.6b19    DYNAMIC     Gi3/0/11
-  34    0080.91b0.e9e1    DYNAMIC     Gi3/0/11
-  34    00e0.81b2.f08c    DYNAMIC     Gi3/0/11
-  34    24be.050f.5505    DYNAMIC     Gi3/0/11
-  34    3cd9.2b68.8313    DYNAMIC     Gi2/0/12
-  34    4437.e6b8.f8bd    DYNAMIC     Gi2/0/12
-  34    4437.e6b9.0571    DYNAMIC     Gi2/0/12
-  34    4437.e6b9.b911    DYNAMIC     Gi2/0/12
-  34    4437.e6b9.baee    DYNAMIC     Gi3/0/11
-  34    4437.e6bb.4263    DYNAMIC     Gi3/0/11
-  34    4437.e6bb.6807    DYNAMIC     Gi3/0/11
-  34    4437.e6bb.6a16    DYNAMIC     Gi3/0/11
-  34    4439.c452.82d2    DYNAMIC     Gi3/0/11
-  34    4439.c452.8304    DYNAMIC     Gi3/0/11
-  34    4439.c452.8377    DYNAMIC     Gi3/0/11
-  34    448a.5bc7.f40a    DYNAMIC     Gi3/0/11
-  34    448a.5be2.b93c    DYNAMIC     Gi2/0/12
-  34    448a.5be2.ba79    DYNAMIC     Gi2/0/12
-  34    6c0b.8443.4c47    DYNAMIC     Gi3/0/11
-  34    fc4d.d438.c517    DYNAMIC     Gi3/0/11
-  34    fc4d.d438.c551    DYNAMIC     Gi2/0/12
-  34    fc4d.d438.c553    DYNAMIC     Gi2/0/12
-  34    fc4d.d438.c691    DYNAMIC     Gi3/0/11
-  34    fc4d.d439.1c32    DYNAMIC     Gi3/0/11
-  34    fc4d.d439.1c69    DYNAMIC     Gi2/0/12
-  34    fc4d.d439.1c85    DYNAMIC     Gi2/0/12
-  34    fc4d.d439.1c97    DYNAMIC     Gi2/0/12
-  34    fc4d.d449.99f4    DYNAMIC     Gi3/0/11
-  34    fc4d.d4d9.e8a4    DYNAMIC     Gi3/0/11
-  34    fc4d.d4da.5fb4    DYNAMIC     Gi3/0/11
-  34    fc4d.d4da.5fc9    DYNAMIC     Gi3/0/11
-  34    fc4d.d4da.5fd5    DYNAMIC     Gi3/0/11
-  34    fc4d.d4f3.c713    DYNAMIC     Gi3/0/11
-  34    fc4d.d4f4.efbe    DYNAMIC     Gi3/0/11
-
+Gi4/0/42 120 0050.56a1.6c5f  
+Gi4/0/1 120 ac16.2d8c.7a26 10.4.132.130 
+Gi2/0/47 130 2c59.e544.e00c  
+Gi4/0/13 130 ac16.2d8c.7a27  
+Gi4/0/15 130 ac16.2d8c.7a8b  
+Gi4/0/17 130 ac16.2d8c.7fdb 10.4.140.38 
+Gi3/0/23 700 0003.ba12.6b17 192.9.200.3 
+Gi3/0/21 700 0003.ba29.d56b 192.9.200.88 
+Gi3/0/13 700 0005.1e06.66ad 10.100.7.105 
+Gi3/0/13 700 0005.1e06.6d12 10.100.7.104 
+Gi2/0/25 700 0005.332d.0018 10.100.7.106 
+Gi2/0/26 700 0005.332e.dc14 10.100.7.107 
+Gi3/0/48 700 0009.0f09.0000 10.4.130.146  fr001-fw  fr001-prdfw001 
+Gi4/0/41 700 000c.29a5.8d08 10.4.128.71  vcenter 
+Gi3/0/28 700 0013.21b1.9ee9 10.4.130.86  printer04 
+Gi3/0/16 700 0014.4f48.7f6a 10.4.130.114  srvsigrecette 
+Gi2/0/13 700 0014.4f48.7f6b  
+Gi3/0/9 700 0014.4f6a.d5b4 10.4.130.110  troll 
+Gi3/0/7 700 0014.4f6a.d5b5  
+Gi3/0/19 700 0014.4fb0.0694 10.4.130.50  vipere 
+Gi3/0/20 700 0014.4fb0.0695  
+Gi3/0/13 700 0018.b126.cb01 10.100.7.103 
+Gi3/0/1 700 0018.b138.eb00  
+Gi3/0/13 700 0018.b138.eb01 10.100.7.100 
+Gi3/0/13 700 0018.b139.0101 10.100.7.102 
+Gi2/0/19 700 0019.bbea.0fbc 10.100.2.61  tages 
+Gi3/0/6 700 001a.64cb.e13a  
+Gi2/0/12 700 001a.64cb.e55d  
+Gi3/0/13 700 001c.c414.6c03 10.100.6.44 
+Gi3/0/1 700 001e.0b47.d6be 10.4.128.32  eon 
+Gi3/0/13 700 001f.2963.af2c 10.100.6.101 
+Gi3/0/1 700 001f.2964.cd68 10.4.130.101  mra01 
+Gi2/0/23 700 001f.2967.23c0 10.4.130.22  eon01 
+Gi3/0/1 700 0023.7da8.d752 10.4.129.54  fr001-devdb003 
+Gi2/0/15 700 0023.7dd2.1794 10.4.130.241 
+Gi3/0/29 700 0024.81f8.a838 10.4.130.215  furec 
+Gi3/0/30 700 0024.81fb.bb16 10.4.130.216 
+Gi3/0/41 700 0050.5665.dea2 10.4.128.77 
+Gi3/0/39 700 0050.566f.682f 10.4.128.80 
+Gi3/0/44 700 0050.5686.0729 10.4.130.150  ape01 
+Gi3/0/43 700 0050.5686.188f 10.4.130.62 
+Gi4/0/41 700 0050.5686.362b 10.4.130.63 
+Gi3/0/44 700 0050.5686.3948 197.3.0.230 
+Gi4/0/4 700 0050.5686.3f52 194.98.79.3  smtp.efl.fr. 
+Gi4/0/41 700 0050.5686.50be 10.4.130.152  tomcatprog 
+Gi4/0/5 700 0050.5686.50ed 10.4.130.65 
+Gi4/0/41 700 0050.5686.5c19 10.4.130.201 
+Gi3/0/42 700 0050.5686.5fc9 10.4.130.153  tomcatproe 
+Gi3/0/12 700 0050.5686.6c30 10.4.130.151  tomcattst 
+Gi4/0/40 700 0050.5686.6fe7 10.4.130.100  svn02 
+Gi4/0/6 700 0050.5690.6b21 10.4.130.48  hotline01 
+Gi2/0/38 700 0050.56a1.003d 10.4.129.17  wxp-32-ie7-3 
+Gi4/0/41 700 0050.56a1.00dd 10.4.128.231 
+Gi4/0/34 700 0050.56a1.00e8 10.4.129.38  fr001-prdapp018 
+Gi2/0/37 700 0050.56a1.00f6 10.4.129.56  fr001-devapp005 
+Gi4/0/4 700 0050.56a1.012f 10.4.128.41  edealrec 
+Gi3/0/12 700 0050.56a1.015f 10.4.129.13  w7-64-ie9-3 
+Gi3/0/12 700 0050.56a1.01c0 10.4.128.56 
+Gi4/0/40 700 0050.56a1.0243 10.4.129.76 
+Gi2/0/38 700 0050.56a1.02ca 10.4.129.22  w7-64-ie10-4 
+Gi2/0/42 700 0050.56a1.02ec 10.4.129.72  fr001-devapp009 
+Gi3/0/44 700 0050.56a1.0376 10.4.128.222  fr001-v0010 
+Gi2/0/29 700 0050.56a1.03b9 10.4.129.36  fr001-v0015 
+Gi4/0/6 700 0050.56a1.0480 10.4.129.84  fr001-prdis021 
+Gi2/0/38 700 0050.56a1.04b3 10.4.128.171  fr001-tstapp004 
+Gi2/0/43 700 0050.56a1.0554 10.4.129.30  wxp-64 
+Gi4/0/40 700 0050.56a1.0590 10.4.128.175  efl_sca_ws.fr001-prdapp007 
+Gi4/0/42 700 0050.56a1.075e 10.4.128.55  edealppd 
+Gi4/0/5 700 0050.56a1.078b 10.4.128.227  fr001-prdis008 
+Gi2/0/37 700 0050.56a1.07cf 10.4.131.147 
+Gi2/0/38 700 0050.56a1.0abc 10.4.129.77  fr001-tstapp038 
+Gi2/0/29 700 0050.56a1.0b6a 10.4.129.90  fr001-devapp014 
+Gi3/0/12 700 0050.56a1.0c2a 10.4.129.60  fr001-ppdapp010 
+Gi2/0/29 700 0050.56a1.0d38 10.4.128.61  testcrm1 
+Gi3/0/44 700 0050.56a1.0e27 10.4.128.149  xp-dgcs 
+Gi3/0/43 700 0050.56a1.0e4c 10.4.129.58  fr001-v0019 
+Gi2/0/29 700 0050.56a1.0f61 10.4.128.169  fr001-tstapp002 
+Gi4/0/41 700 0050.56a1.121f 10.4.129.61  fr001-v0020 
+Gi4/0/5 700 0050.56a1.12a2 10.4.128.179  fr001-prdapp004 
+Gi3/0/12 700 0050.56a1.12dd 10.4.129.6  wxp-32-ie7 
+Gi2/0/38 700 0050.56a1.1309 10.4.128.191  fr001-tstapp013 
+Gi4/0/4 700 0050.56a1.14d7 10.4.128.167  fr001-prdxml005 
+Gi3/0/12 700 0050.56a1.14d9 10.4.128.224  fr001-tstis001 
+Gi2/0/38 700 0050.56a1.155a 10.4.128.214  fr001-tstapp024 
+Gi2/0/38 700 0050.56a1.1593 10.4.129.64  fr001-v0023 
+Gi3/0/12 700 0050.56a1.160f 10.4.128.207  fr001-tstapp020 
+Gi4/0/41 700 0050.56a1.1660 10.4.128.146  nordcompo04 
+Gi3/0/43 700 0050.56a1.1749 10.4.129.46  fr001-prdapp022 
+Gi3/0/12 700 0050.56a1.1833 10.4.129.53 
+Gi4/0/6 700 0050.56a1.190b 10.4.130.55 
+Gi3/0/12 700 0050.56a1.1a08 10.4.128.189  fr001-tstapp012 
+Gi4/0/40 700 0050.56a1.1a47 10.4.129.63  fr001-v0022 
+Gi2/0/43 700 0050.56a1.1a55 10.4.129.94  fr001-tstapp042 
+Gi2/0/29 700 0050.56a1.1c08 10.4.129.65  fr001-v0024 
+Gi4/0/40 700 0050.56a1.1c38 10.4.129.43  fr001-v0017 
+Gi4/0/42 700 0050.56a1.1c69 10.4.128.213  fr001-prdapp009 
+Gi2/0/38 700 0050.56a1.1d0d 10.4.128.66  w7-64-axure 
+Gi2/0/29 700 0050.56a1.1d2f 10.4.128.244  fr001-tstapp030 
+Gi4/0/41 700 0050.56a1.1e87 10.4.129.59  fr001-prdapp023 
+Gi3/0/12 700 0050.56a1.203c 10.4.128.178  fr001-tstapp007 
+Gi2/0/38 700 0050.56a1.20c2 10.4.128.205  fr001-tstdb001  fr001-tstapp018 
+Gi4/0/6 700 0050.56a1.2323 10.4.128.159  fr001-prdprt001 
+Gi2/0/38 700 0050.56a1.233f 10.4.128.210  fr001-tstapp022 
+Gi2/0/38 700 0050.56a1.2390 10.4.129.8  w7-64-ie9-2 
+Gi4/0/40 700 0050.56a1.2409 10.4.128.241  fr001-v0012 
+Gi3/0/43 700 0050.56a1.2469 10.4.128.245  fr001-prdapp016 
+Gi3/0/42 700 0050.56a1.24b7 10.4.128.177  fr001-prdapp003 
+Gi3/0/12 700 0050.56a1.2527 10.4.129.3  w7-64-ie10 
+Gi4/0/5 700 0050.56a1.2547 10.4.129.100  fr001-prdcti005 
+Gi3/0/43 700 0050.56a1.2592 10.4.129.97  fr001-prdapp025 
+Gi4/0/40 700 0050.56a1.2610 10.4.128.26  backup02 
+Gi3/0/12 700 0050.56a1.2639 10.4.129.2  w7-64-ie9 
+Gi4/0/6 700 0050.56a1.26c6 10.100.4.154 
+Gi4/0/6 700 0050.56a1.27f6 10.4.128.155  fr001-v0001 
+Gi4/0/41 700 0050.56a1.288e 10.4.129.87  fr001-prdcti004 
+Gi2/0/43 700 0050.56a1.28af 10.4.129.20  w2k3-32 
+Gi4/0/6 700 0050.56a1.2924 10.4.128.239  fr001-prdapp014 
+Gi3/0/12 700 0050.56a1.2982 10.4.129.12  wxp-32-ie7-2 
+Gi3/0/12 700 0050.56a1.2b07 10.4.129.7  w7-64-ie10jp 
+Gi4/0/5 700 0050.56a1.2d0c 10.4.129.50  fr001-v0018 
+Gi2/0/38 700 0050.56a1.2d72 10.4.129.15  w7-64-ie11-3 
+Gi4/0/41 700 0050.56a1.2e7b 10.4.128.223  fr001-prdapp010 
+Gi2/0/29 700 0050.56a1.2ff7 10.4.129.69  fr001-devapp008 
+Gi4/0/40 700 0050.56a1.30bb 10.4.129.39  fr001-prdapp019 
+Gi3/0/42 700 0050.56a1.3137 10.4.128.154  fr001-prdcti001 
+Gi2/0/29 700 0050.56a1.3148 10.4.130.219  w4-01 
+Gi2/0/29 700 0050.56a1.3272 10.100.3.10  w4-prod 
+Gi2/0/42 700 0050.56a1.3281 10.4.128.172  fr001-tstapp005 
+Gi3/0/12 700 0050.56a1.333d 10.4.129.73 
+Gi4/0/41 700 0050.56a1.33c4 10.4.128.173  fr001-prdapp001 
+Gi2/0/42 700 0050.56a1.3407 10.4.128.14  srvfrojal 
+Gi3/0/43 700 0050.56a1.3434 10.4.128.166  fr001-prdxml004 
+Gi2/0/37 700 0050.56a1.3441 10.4.128.168  fr001-tstapp001 
+Gi2/0/42 700 0050.56a1.359c 10.4.128.144  w4studio 
+Gi2/0/42 700 0050.56a1.35d1 10.4.129.95  fr001-tstapp043 
+Gi2/0/38 700 0050.56a1.3697  
+Gi3/0/44 700 0050.56a1.3753 10.4.128.157  fr001-prdcti002 
+Gi3/0/44 700 0050.56a1.37fa 10.4.128.228  fr001-prdis009 
+Gi4/0/4 700 0050.56a1.3827 10.4.128.31  printer05 
+Gi4/0/4 700 0050.56a1.3a13 10.4.129.82  fr001-prdis019 
+Gi3/0/12 700 0050.56a1.3ac9 10.4.128.180  fr001-tstapp008 
+Gi2/0/29 700 0050.56a1.3b6b 10.4.128.202  fr001-ppdapp008 
+Gi4/0/5 700 0050.56a1.3d38 10.4.129.81  fr001-v0026 
+Gi3/0/44 700 0050.56a1.3dcf 10.4.128.98  fr001-prdsso01 
+Gi4/0/27 700 0050.56a1.3dea 10.4.129.40  fr001-ppddb001 
+Gi3/0/12 700 0050.56a1.4007 10.4.128.174 
+Gi2/0/43 700 0050.56a1.41e9 10.4.128.235  fr001-v0011 
+Gi2/0/29 700 0050.56a1.430e 10.4.129.4  w7-64-ie11 
+Gi2/0/43 700 0050.56a1.4364 10.4.128.192  fr001-tstapp014 
+Gi2/0/43 700 0050.56a1.4441 10.4.129.75 
+Gi2/0/38 700 0050.56a1.444f 10.4.129.18  w2k8-64 
+Gi4/0/42 700 0050.56a1.47ab 10.4.128.145  svn03  fr001-prdsvn001 
+Gi3/0/12 700 0050.56a1.4859 10.4.128.218  fr001-devdb001 
+Gi2/0/29 700 0050.56a1.487d 10.4.129.14  w7-64-ie10-3 
+Gi4/0/4 700 0050.56a1.48bf 10.4.128.193  fr001-v0003 
+Gi2/0/38 700 0050.56a1.49b3 10.4.129.93  fr001-tstapp041 
+Gi3/0/12 700 0050.56a1.49c6 10.4.129.9  w7-64-ie10-2 
+Gi3/0/44 700 0050.56a1.4a77 10.4.128.99  fr01-prd-lds001 
+Gi4/0/5 700 0050.56a1.4a79 10.4.128.54  jiraprd 
+Gi4/0/42 700 0050.56a1.4ae1 10.4.130.95  xflow01 
+Gi2/0/43 700 0050.56a1.4b35 10.4.129.35 
+Gi4/0/5 700 0050.56a1.4b95 10.4.128.195  fr001-prdis006 
+Gi4/0/6 700 0050.56a1.4be3 10.4.129.37  fr001-prddhcp01 
+Gi2/0/38 700 0050.56a1.4dca 10.4.129.80  fr001-v0025 
+Gi4/0/4 700 0050.56a1.4ebb 10.4.128.196  fr001-prdis007 
+Gi4/0/5 700 0050.56a1.4f9a 10.4.129.44  fr001-prdapp020 
+Gi3/0/12 700 0050.56a1.4fa3 10.4.128.206  fr001-tstapp019 
+Gi2/0/38 700 0050.56a1.5153 10.4.128.140 
+Gi3/0/12 700 0050.56a1.529b 10.4.128.238  fr001-tstapp029 
+Gi4/0/5 700 0050.56a1.52c6 10.4.128.64  fr01-prd-dc001 
+Gi2/0/29 700 0050.56a1.5344 10.4.128.200  fr001-tstbsx001 
+Gi3/0/12 700 0050.56a1.536c 10.4.129.19  w2k12-64 
+Gi2/0/42 700 0050.56a1.53df 10.4.128.217  fr001-devapp001 
+Gi4/0/6 700 0050.56a1.540b 10.4.129.62  fr001-v0021 
+Gi3/0/12 700 0050.56a1.5481 10.4.131.148 
+Gi2/0/38 700 0050.56a1.555b 10.4.129.31 
+Gi4/0/6 700 0050.56a1.5676 10.4.128.96  license01 
+Gi2/0/29 700 0050.56a1.56fc 10.4.129.26  wvista-64 
+Gi2/0/43 700 0050.56a1.5770 10.4.128.185  fr001-ppdapp005 
+Gi2/0/29 700 0050.56a1.5868 10.4.129.68  fr001-devapp006 
+Gi2/0/38 700 0050.56a1.5921 10.4.128.208  fr001-v0006 
+Gi4/0/41 700 0050.56a1.592c 10.4.128.236  fr001-prdapp013 
+Gi4/0/40 700 0050.56a1.59b9 10.4.128.203  fr001-v0004 
+Gi2/0/38 700 0050.56a1.59c2 10.4.129.51  fr001-devapp004 
+Gi4/0/4 700 0050.56a1.5b0a 10.4.128.240  fr001-prdapp015 
+Gi4/0/5 700 0050.56a1.5caa 10.4.128.247  fr001-prdis002 
+Gi2/0/43 700 0050.56a1.5cb1 10.4.128.198  fr001-tstapp015 
+Gi3/0/12 700 0050.56a1.5d8b 10.4.129.57  fr001-tstapp037 
+Gi3/0/12 700 0050.56a1.5d8c 10.4.129.49 
+Gi3/0/12 700 0050.56a1.606b 10.4.128.184  fr001-ppdapp004 
+Gi2/0/37 700 0050.56a1.606d 10.4.129.70  fr001-devdb004 
+Gi2/0/29 700 0050.56a1.622f 10.4.128.188  fr001-tstapp011 
+Gi3/0/43 700 0050.56a1.63c1 10.4.129.92 
+Gi4/0/6 700 0050.56a1.65f2 10.4.128.58  edeal 
+Gi3/0/12 700 0050.56a1.65f3 10.4.128.63  testcrm3 
+Gi4/0/6 700 0050.56a1.661f 10.4.128.242  fr001-v0013 
+Gi2/0/37 700 0050.56a1.6632 10.4.128.211  fr001-tstapp023 
+Gi4/0/40 700 0050.56a1.6657 10.4.128.212  fr001-prdapp008 
+Gi2/0/29 700 0050.56a1.68cd 10.4.129.25  fr001-v0016 
+Gi4/0/27 700 0050.56a1.68e3 10.4.129.41  fr001-ppdapp009 
+Gi3/0/12 700 0050.56a1.697d 10.4.128.190  fr001-ppdapp007 
+Gi4/0/6 700 0050.56a1.6a3e 10.4.128.249  fr001-prdapp017 
+Gi2/0/43 700 0050.56a1.6baf 10.4.129.91  fr001-devapp015 
+Gi2/0/37 700 0050.56a1.6cbb 10.4.128.62  testcrm2 
+Gi4/0/6 700 0050.56a1.6e0e 10.4.128.158  fr001-prdcti003 
+Gi3/0/42 700 0050.56a1.7038 10.4.129.48  fr001-prdis012 
+Gi2/0/37 700 0050.56a1.7108 10.4.128.187  fr001-ppdapp006 
+Gi3/0/12 700 0050.56a1.71df 10.4.128.199  fr001-tstapp016 
+Gi2/0/29 700 0050.56a1.72ee 10.4.129.99  fr001-prdapp027 
+Gi2/0/38 700 0050.56a1.731f 10.4.129.42  fr001-devapp003 
+Gi3/0/44 700 0050.56a1.7467 10.4.128.215  fr001-v0007 
+Gi4/0/5 700 0050.56a1.7469 10.4.130.249  w7-32robohelp10 
+Gi3/0/12 700 0050.56a1.74c6 10.4.129.89  fr001-devapp013 
+Gi3/0/12 700 0050.56a1.750e 10.4.129.71  fr001-devapp007 
+Gi2/0/29 700 0050.56a1.765d 10.4.128.243  fr001-devapp002 
+Gi2/0/29 700 0050.56a1.76cd 10.4.100.57 
+Gi2/0/42 700 0050.56a1.7742 10.4.128.226  fr001-tstapp026 
+Gi2/0/29 700 0050.56a1.7823 10.4.129.32  wxp-64-3 
+Gi4/0/42 700 0050.56a1.782d 10.4.129.45  fr001-prdapp021 
+Gi4/0/40 700 0050.56a1.7831 10.4.128.156  fr001-v0002 
+Gi2/0/42 700 0050.56a1.7834 10.4.129.52  fr001-tstapp036 
+Gi3/0/12 700 0050.56a1.78a9 10.4.129.10  w7-64-ie11-2 
+Gi3/0/42 700 0050.56a1.79f3 10.4.128.216  fr001-v0008 
+Gi2/0/38 700 0050.56a1.7a66 10.4.128.170  fr001-tstapp003 
+Gi3/0/42 700 0050.56a1.7ae8 10.4.128.221 
+Gi4/0/42 700 0050.56a1.7c48 10.4.128.197  fr001-prdapp002  fr001-prdapp02  fr001-prdapp002eu.els.local. 
+Gi2/0/29 700 0050.56a1.7ca8 10.4.128.230  fr001-tstapp027 
+Gi2/0/29 700 0050.56a1.7e29 10.4.129.86  fr001-tstapp040 
+Gi2/0/43 700 0050.56a1.7e62 10.4.129.96  fr001-ppdapp013 
+Gi2/0/42 700 0050.56a1.7e9b 10.4.129.98  fr001-prdapp026 
+Gi4/0/40 700 0050.56a1.7ea6 10.4.128.100  fr01-prd-lds002 
+Gi3/0/43 700 0050.56a1.7ea9 10.4.130.96  xflow03 
+Gi4/0/41 700 0050.56b3.0d1b 192.9.200.252 
+Gi4/0/41 700 0050.56b3.2d41 10.4.130.2  intradoc 
+Gi4/0/5 700 0050.56b3.46cb 195.68.6.189  host6-189.lan-isdn.imaginet.fr. 
+Gi4/0/42 700 0050.56b3.66b4 10.4.130.45 
+Gi4/0/40 700 0050.56b3.6b01 10.4.130.30  apache01 
+Gi3/0/12 700 0050.56b6.0524 10.100.3.55 
+Gi2/0/43 700 0050.56b6.05e9 10.100.3.53  auditsoft-srv 
+Gi4/0/4 700 0050.56b6.06a6 10.4.130.72  ctxsql002 
+Gi4/0/5 700 0050.56b6.0918 10.4.128.16  sudo01 
+Gi4/0/41 700 0050.56b6.0d5c 10.4.131.30  ws2k8-bo-srv 
+Gi2/0/38 700 0050.56b6.0d64 10.4.130.29  auditsoft01 
+Gi3/0/44 700 0050.56b6.0f94 10.4.130.73  ctxdco001 
+Gi4/0/5 700 0050.56b6.116e 10.4.128.20  psta_serveur 
+Gi4/0/4 700 0050.56b6.1195 10.4.128.19  tomcat01prd 
+Gi3/0/44 700 0050.56b6.148a 10.4.130.124 
+Gi3/0/43 700 0050.56b6.19a3 10.100.3.57  actu02 
+Gi4/0/40 700 0050.56b6.19e7 10.4.130.165  sagevm 
+Gi2/0/38 700 0050.56b6.1a80 10.4.128.10  neolane03 
+Gi4/0/4 700 0050.56b6.1b3b 10.4.128.50  comete 
+Gi3/0/12 700 0050.56b6.1c5e 10.4.130.213  adamels01 
+Gi4/0/6 700 0050.56b6.2056 10.4.128.17  edealint 
+Gi3/0/42 700 0050.56b6.229e 10.4.130.71  ctxsql001 
+Gi2/0/38 700 0050.56b6.22b0 10.4.128.69  xp-qtp 
+Gi2/0/43 700 0050.56b6.2371 10.100.3.61 
+Gi2/0/29 700 0050.56b6.2544 10.4.128.23 
+Gi2/0/42 700 0050.56b6.2a12 10.4.130.144  exaleadpertinence 
+Gi2/0/29 700 0050.56b6.2b46 10.100.3.52  auditsoft-xp 
+Gi2/0/42 700 0050.56b6.3108 10.100.3.31 
+Gi3/0/12 700 0050.56b6.32b3 10.200.1.80  xp-tstsig-mstr 
+Gi4/0/4 700 0050.56b6.3815 10.100.5.83  adbofdpm 
+Gi4/0/42 700 0050.56b6.3932 10.4.128.232  w2k8-gestparc 
+Gi2/0/43 700 0050.56b6.3d7f 10.4.130.245  tsm-reporting 
+Gi2/0/29 700 0050.56b6.3e2d 10.100.3.21  ws2k8-auditsoft-srv 
+Gi2/0/29 700 0050.56b6.4166 10.4.130.138  neolane02 
+Gi3/0/42 700 0050.56b6.45b8 10.4.130.79  gaea2 
+Gi2/0/37 700 0050.56b6.4998 10.4.128.97  srv-tst-web001 
+Gi2/0/43 700 0050.56b6.4ab1 10.4.128.21  rodia 
+Gi2/0/43 700 0050.56b6.4bf6 10.4.130.76  ctxtest001 
+Gi3/0/12 700 0050.56b6.4c44 10.100.3.26 
+Gi4/0/4 700 0050.56b6.4c80 10.4.130.220  ape02 
+Gi3/0/42 700 0050.56b6.4ca1 10.100.3.24  luxid-studio 
+Gi2/0/29 700 0050.56b6.5095 10.200.1.82  xp-tstsig-sl02 
+Gi3/0/12 700 0050.56b6.542c 10.4.130.47  mercury01 
+Gi4/0/40 700 0050.56b6.56b9 10.4.128.3 
+Gi2/0/43 700 0050.56b6.56ee 10.4.130.248  w7-32-instshld 
+Gi2/0/29 700 0050.56b6.57a6 10.100.3.19 
+Gi4/0/4 700 0050.56b6.57e4 10.100.2.25  fedora02 
+Gi3/0/12 700 0050.56b6.59a3 10.200.1.81  xp-tstsig-sl01 
+Gi4/0/42 700 0050.56b6.59ef 10.4.128.8  gwingres02 
+Gi2/0/43 700 0050.56b6.5bb1 10.4.128.22  ctiwin2008int 
+Gi2/0/38 700 0050.56b6.5d37 10.200.1.83  xp-tstsig-sl03 
+Gi2/0/42 700 0050.56b6.5ddd 10.4.128.33  w2k8-netapp-ocum 
+Gi4/0/40 700 0050.56b6.62bc 10.100.3.32  sig-process-prod 
+Gi4/0/40 700 0050.56b6.65b3 10.4.128.11  rsync3 
+Gi4/0/5 700 0050.56b6.6743 10.4.130.119  xp-sage-paye-ds 
+Gi4/0/6 700 0050.56b6.680a 10.4.130.16  adsamba04 
+Gi4/0/4 700 0050.56b6.6820 10.4.128.9  postfix01 
+Gi4/0/5 700 0050.56b6.6aba 10.4.128.7  gwingres01 
+Gi4/0/42 700 0050.56b6.6b10 10.100.3.14  wss01 
+Gi3/0/12 700 0050.56b6.6c12 10.4.128.2 
+Gi4/0/4 700 0050.56b6.6c4a 10.4.130.137  neolane01 
+Gi3/0/43 700 0050.56b6.70d0 10.4.130.230 
+Gi2/0/43 700 0050.56b6.7349 10.4.128.13  xp-sage-frojal 
+Gi4/0/6 700 0050.56b6.7377 10.4.130.157  intranetce 
+Gi4/0/41 700 0050.56b6.74f7 10.4.128.18 
+Gi2/0/29 700 0050.56b6.7934 10.4.130.52  memcached01 
+Gi4/0/40 700 0050.56b6.7d87 10.4.130.212  softs05 
+Gi3/0/12 700 0050.56b6.7ded 10.200.1.84  xp-tstsig-sl04 
+Gi2/0/29 700 0050.56b6.7f0b 10.100.4.156 
+Gi3/0/44 700 0050.56b6.7f67 10.100.3.51  auditsoft-w7 
+Gi4/0/6 700 0050.56b8.0e15 10.4.130.99  adsamba03 
+Gi4/0/42 700 0050.56b8.212f 10.4.130.155 
+Gi4/0/40 700 0050.56b8.26f1 10.4.130.195  openldap02 
+Gi4/0/42 700 0050.56b8.2aeb 10.4.130.190  intranet02 
+Gi3/0/43 700 0050.56b8.3665 10.4.130.128  badgeuse 
+Gi4/0/41 700 0050.56b8.3b0d 10.4.130.194  openldap01 
+Gi4/0/42 700 0050.56b8.5b89 10.4.130.118  softs02 
+Gi3/0/42 700 0050.56b8.639c 10.4.130.20  ged01 
+Gi4/0/6 700 0050.56b8.69b7 10.4.130.102  neoload01 
+Gi3/0/12 700 0050.56b8.6acb 10.4.130.18  win2k8-03 
+Gi3/0/44 700 0050.56b8.6f09 10.4.130.14  apache03 
+Gi4/0/42 700 0050.56b8.7c0c 10.4.130.187  softs03 
+Gi4/0/40 700 0050.56b8.7ed3 10.4.130.172  mail02 
+Gi3/0/42 700 0050.56bd.3ea5 10.4.130.81  svn01 
+Gi2/0/5 700 00a0.983f.ad80  
+Gi2/0/6 700 00a0.983f.ad81  
+Gi2/0/2 700 00a0.983f.ad84 10.100.6.212 
+Gi2/0/2 700 00a0.983f.ad86 10.100.6.213 
+Gi2/0/3 700 00a0.983f.bdb0  
+Gi2/0/4 700 00a0.983f.bdb1  
+Gi2/0/1 700 00a0.983f.bdb4 10.100.6.210 
+Gi2/0/1 700 00a0.983f.bdb6 10.100.6.211 
+Gi3/0/5 700 0221.5e55.9578 10.4.128.28  w2k8-infra-wds 
+Gi2/0/6 700 02a0.983f.ad80 10.4.130.149  nas006 
+Gi2/0/3 700 02a0.983f.bdb0 10.4.130.148  nas005 
+Gi2/0/44 700 1060.4b95.4388 10.4.130.175  immo 
+Gi2/0/20 700 1060.4b9d.d3b0 10.4.128.1  mongodb01 
+Gi2/0/21 700 1060.4baf.efac 10.4.128.4 
+Gi2/0/22 700 18a9.0576.8dec 10.4.130.24  sefcodif2 
+Gi3/0/32 700 1cc1.dee5.3a98 10.4.130.116  srvic 
+Gi2/0/18 700 2c44.fd7a.1fa4 10.4.128.160  fr001-prdxml001 
+Gi2/0/24 700 2c44.fd92.f688 10.4.128.93  esxtst03 
+Gi4/0/29 700 2c59.e542.3608 10.4.128.81  fr001-prdesx001 
+Gi4/0/25 700 2c59.e544.d3be  
+Gi3/0/1 700 441e.a152.9720 10.100.3.33  talend01 
+Gi2/0/28 700 5cf3.fc4c.c01c 10.4.130.135  srvboprod 
+Gi3/0/18 700 5cf3.fc4c.cc08 10.4.130.134  exalead06 
+Gi2/0/17 700 842b.2b05.7bdc  
+Gi2/0/16 700 842b.2b05.7c3b  
+Gi4/0/31 700 a0d3.c1f2.311c 10.4.128.84  fr001-prdesx002 
+Gi2/0/10 700 ac16.2d8c.7a24 10.4.128.130  ocl130 
+Gi2/0/8 700 ac16.2d8c.7a88 10.4.128.127  ocl127 
+Gi2/0/7 700 ac16.2d8c.7fd8 10.4.128.114  ocl114 
+Gi3/0/1 700 ac16.2daa.b680 10.4.128.219  fr001-devdb002 
+Gi3/0/38 700 ac16.2dbe.8afe 10.4.130.223  o365-coex-dosrv 
+Gi2/0/31 700 b4b5.2f63.1c28 10.4.130.74  ctxapp001 
+Gi4/0/30 700 c434.6bbc.8dbc  
+Gi2/0/40 700 d89d.6714.9680 10.4.128.87  esxtst01 
+Gi2/0/41 700 d89d.6714.b23c 10.4.128.90  esxtst02 
+Gi3/0/39 700 d89d.6715.b87c 10.4.128.78  esxprd03 
+Gi3/0/40 700 d89d.671a.7734 10.4.128.72  esxprd01 
+Gi3/0/41 700 d89d.6727.43d0 10.4.128.75  esxprd02 
+Gi3/0/25 700 d89d.6732.4d90 10.4.128.164  fr001-prdxml003 
+Gi3/0/26 700 d89d.6732.5cc8 10.4.128.162  fr001-prdxml002 
+Gi3/0/11 700 d89d.675d.7af0  
+Gi3/0/14 700 d89d.675d.9d92  
+Gi2/0/9 700 d89d.6764.13b4 10.4.128.43  srvicprd 
+Gi3/0/27 700 d89d.6764.5344 10.4.128.47  fr001-prdapp005 
+Gi3/0/13 700 d8d3.85c1.a780 10.100.6.11 
+Gi2/0/45 700 e41f.13a9.a291 10.100.6.130 
+Gi3/0/34 700 e41f.13a9.a669 10.100.6.129 
+Gi2/0/46 700 e41f.13b6.a290 10.4.130.130 
+Gi3/0/33 700 e41f.13b6.a668 10.4.130.129  luxiddev 
+Gi3/0/45 710 0009.0fa8.ebc0  
+Gi3/0/42 110 0050.56a1.0b98  
+Gi3/0/37 29 0009.0f09.0003  
