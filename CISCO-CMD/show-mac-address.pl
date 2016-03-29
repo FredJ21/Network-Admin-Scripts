@@ -22,11 +22,14 @@ my $s;		# SNMP session
 my $e;		# SNMP error
 my $community;
 my @RESULT;
-my @VlanList;
 
-# [main] ------------------------------------------------------------------
+# ============================================================================
+#				MAIN
+# ============================================================================
 
-# Liste des Vlans ---------------------------------------------------------
+# ---------------------------------------------------------------------------
+# 				Liste des Vlans 
+  my @VlanList;
   @RESULT ="";
   $community = $OPTS{c};
   _openSession();
@@ -39,21 +42,37 @@ my @VlanList;
   } 
   _closeSession();
 
-# Liste des Vlans ---------------------------------------------------------
-  @RESULT ="";
-  $community = $OPTS{c} ."\@10";
-  _openSession();
-  _get(".1.3.6.1.2.1.17.4.3.1.1");
-  _printTab(@RESULT);
-  _closeSession();
+# ---------------------------------------------------------------------------
+# 				Liste des Adresses Mac par Vlan  
+  my @MacList;
+  foreach my $vlan (@VlanList) {
 
+  	@RESULT ="";
+  	$community = $OPTS{c} ."\@". $vlan;
+  	_openSession();
+  	_get(".1.3.6.1.2.1.17.4.3.1.1");
+
+	foreach (@RESULT) {	
+		if(/(.*) = OCTET STRING: 0x(\w+)/) {
+			my $oid = $1;
+			my $mac = $2;
+
+			$oid =~ s/.1.3.6.1.2.1.17.4.3.1.1/.1.3.6.1.2.1.17.4.3.1.2/;
+
+			push(@MacList, $vlan ." ". $mac ." ". $oid ); 
+		}
+	}	
+  	_closeSession();
+  }
+
+
+_printTab(@MacList);
 
 exit 0;
 
 # [private] ------------------------------------------------------------------
 sub _openSession
 {
-print "-->". $community ."<--\n";
 
 	($s, $e) = Net::SNMP->session(
 	   -hostname => $host,
@@ -135,7 +154,8 @@ sub _get
 }
 sub _printTab
 {
-	foreach (@_) {	print '['. $_ ."]\n"; }	
+	#foreach (@_) {	print '['. $_ ."]\n"; }	
+	foreach (@_) {	print  $_ ."\n"; }	
 }
 sub _exit
 {
