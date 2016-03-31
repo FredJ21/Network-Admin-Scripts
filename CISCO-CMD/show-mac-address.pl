@@ -10,6 +10,8 @@ use Getopt::Std;
 use strict;
 use vars qw(%OPTS);
 
+autoflush STDOUT 1;
+
 # Validate the command line options
 if (!getopts('a:A:c:dD:E:m:n:p:r:t:u:v:x:X:', \%OPTS)) {	_usage();}
 
@@ -36,39 +38,104 @@ my @RESULT;
   _get(".1.3.6.1.4.1.9.9.46.1.3.1.1.2");
   
   foreach (@RESULT) {
-	if(/.1.3.6.1.4.1.9.9.46.1.3.1.1.2.1.(\d+) = INTEGER: 1/) {
-		push(@VlanList, $1 );
+	if(/\.1\.3\.6\.1\.4\.1\.9\.9\.46\.1\.3\.1\.1\.2\.1\.(\d+) = INTEGER: 1/) {
+		push @VlanList, $1;
+		print ".";
 	}
   } 
   _closeSession();
 
 # ---------------------------------------------------------------------------
-# 				Liste des Adresses Mac par Vlan  
-  my @MacList;
+# 				Table index/Alias
+  my %Alias; 
+  @RESULT ="";
+  $community = $OPTS{c};
+  _openSession();
+  _get(".1.3.6.1.2.1.31.1.1.1.1");
+  
+  foreach (@RESULT) {
+	if(/\.1\.3\.6\.1\.2\.1\.31\.1\.1\.1\.1\.(\d+) = OCTET STRING: (.+)/) {
+		my $index = $1;
+		my $Alias = $2;
+		$Alias{$index} = $Alias;
+		print ".";
+	}
+  } 
+  _closeSession();
+
+
+# ---------------------------------------------------------------------------
+# 				Pour chaque VLAN:
+#					- liste des ports/index
+#					- liste des mac/ports
+  my %Ports;
+  my %AddMac;
   foreach my $vlan (@VlanList) {
 
-  	@RESULT ="";
   	$community = $OPTS{c} ."\@". $vlan;
+
+  	@RESULT ="";
   	_openSession();
-  	_get(".1.3.6.1.2.1.17.4.3.1.1");
-
+  	_get(".1.3.6.1.2.1.17.1.4.1.2");		# Table ports/index
 	foreach (@RESULT) {	
-		if(/(.*) = OCTET STRING: 0x(\w+)/) {
-			my $oid = $1;
-			my $mac = $2;
 
-			$oid =~ s/.1.3.6.1.2.1.17.4.3.1.1/.1.3.6.1.2.1.17.4.3.1.2/;
+		if(/\.1\.3\.6\.1\.2\.1\.17\.1\.4\.1\.2\.(\d+) = INTEGER: (\d+)/) {
+			my $port  = $1;
+			my $index = $2;
+			$Ports{$index} = $port;
+			print ".";
+		}	
+  	}
+	_closeSession();
+ 
 
-			push(@MacList, $vlan ." ". $mac ." ". $oid ); 
+  	@RESULT ="";
+  	_openSession();
+  	_get(".1.3.6.1.2.1.17.4.3.1.2");		# Table Mac(decimal)/port
+	foreach (@RESULT) {	
+
+		if(/\.1\.3\.6\.1\.2\.1\.17\.4\.3\.1\.2\.(\d+\.\d+\.\d+\.\d+\.\d+\.\d+) = INTEGER: (\d+)/) {
+			my $mac   = $1;
+			my $port  = $2;
+			push @{ $AddMac{$port} }, $vlan ."_". $mac; 
+			print ".";
 		}
+#		print "o";
 	}	
   	_closeSession();
   }
 
+ 
+# ---------------------------------------------------------------------------
+#				Affichage 
+  print "\n\n\n";  
+  printf ("%10s %15s %10s %10s %25s\n", "Index", "Alias", "Port", "Vlan", "Mac");
+  print  ("--------------------------------------------------------------------------\n");
+  foreach my $k (sort {$a<=>$b} keys(%Alias)) {
 
-_printTab(@MacList);
+	my $portNumber = $Ports{$k};
+	
+	if ( $AddMac{$portNumber}[0] ) {
+		foreach (@{ $AddMac{$portNumber} }) {
+		
+			my $vlan; my $mac1; my $mac2; my $mac3; my $mac4; my $mac5; my $mac6;
+			($vlan, $mac1,$mac2,$mac3,$mac4,$mac5,$mac6) = /(\d+)_(\d+)\.(\d+)\.(\d+)\.(\d+)\.(\d+)\.(\d+)/;
 
+			my $mac =  sprintf("%02X.%02X.%02X.%02X.%02X.%02X",$mac1, $mac2, $mac3, $mac4, $mac5, $mac6);
+
+			printf ("%10s %15s %10s %10s %25s\n", $k, $Alias{$k}, $portNumber, $vlan, $mac);
+
+		}	
+	} else {
+			printf ("%10s %15s %10s\n", $k, $Alias{$k}, $portNumber);
+	}
+
+ 
+  }
+  print "\n";  
+  
 exit 0;
+
 
 # [private] ------------------------------------------------------------------
 sub _openSession
