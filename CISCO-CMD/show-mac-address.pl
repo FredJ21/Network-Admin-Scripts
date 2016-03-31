@@ -1,7 +1,13 @@
 #! /usr/bin/perl 
 
 # ============================================================================
-#	http://cpansearch.perl.org/src/DTOWN/Net-SNMP-5.2.0/examples/snmpwalk.pl
+#		CISCO SNMP SHOW MAC ADDRESS
+#							Frederic JELMONI
+#	
+#	Ref :
+#		http://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseOID.do
+#		http://www.cisco.com/c/en/us/support/docs/ip/simple-network-management-protocol-snmp/44800-mactoport44800.html	
+#		http://cpansearch.perl.org/src/DTOWN/Net-SNMP-5.2.0/examples/snmpwalk.pl
 # ============================================================================
 
 use Net::SNMP v5.1.0 qw(:snmp DEBUG_ALL);
