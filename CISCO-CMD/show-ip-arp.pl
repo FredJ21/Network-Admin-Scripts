@@ -48,8 +48,10 @@ my @RESULT;
 	if(/1\.3\.6\.1\.2\.1\.2\.2\.1\.2\.(\d+) = OCTET STRING: (\w+)/) {
 		my $INDEX = $1;
 		my $IfDesc = $2;
+
+		$IfDesc =~ s/vlan//;
+		$IfDesc =~ s/Vlan//;
   	
-#		print $VLAN ."-". $INDEX ."\n";	
 		$interface{$INDEX} = $IfDesc;
 	} 
   } 

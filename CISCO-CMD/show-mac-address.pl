@@ -127,7 +127,7 @@ my @RESULT;
 			my $vlan; my $mac1; my $mac2; my $mac3; my $mac4; my $mac5; my $mac6;
 			($vlan, $mac1,$mac2,$mac3,$mac4,$mac5,$mac6) = /(\d+)_(\d+)\.(\d+)\.(\d+)\.(\d+)\.(\d+)\.(\d+)/;
 
-			my $mac =  sprintf("%02X.%02X.%02X.%02X.%02X.%02X",$mac1, $mac2, $mac3, $mac4, $mac5, $mac6);
+			my $mac =  sprintf("%02x%02x%02x%02x%02x%02x",$mac1, $mac2, $mac3, $mac4, $mac5, $mac6);
 
 			printf ("%10s %15s %10s %10s %25s\n", $k, $Alias{$k}, $portNumber, $vlan, $mac);
 
