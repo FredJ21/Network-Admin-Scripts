@@ -37,18 +37,15 @@ while ($LINE = <F>) {
            if ($IP) {
 
                 #print $A ." --> ". $IP ." - ". $DESC ." - ";
-                printf ("%3s ->%-15s %-40s ", $A, $IP, $DESC);
+                #printf ("%3s ->%-15s %-40s ", $A, $IP, $DESC);
 
                 $TEST_ICMP = &ping($IP);
-
-                #print "\t";
-                print "\n";
 
                 $A++;
            }
         } else {
 
-                print $LINE ."\n";
+                print "\n". $LINE ."\n";
 
         }
 }
@@ -68,10 +65,10 @@ sub ping {
         $p = Net::Ping->new("icmp", 1);
 
         if ($p->ping($IP)) {
-                print $CO_V ."OK". $CO_N;
+                print $CO_V .$IP. $CO_N ."|";
                 $TEST_ICMP = true;
         } else {
-                print $CO_R ."HS". $CO_N;
+                print $CO_R .$IP. $CO_N ."|";
                 $TEST_ICMP = false;
         }
 
