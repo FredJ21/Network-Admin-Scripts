@@ -18,7 +18,9 @@ my $FILE_INIT   = 'host.ini';
 
 
 # ---------------------------------- INIT ---------------------------
-my $A = 1;
+my $NB = 0;
+my $OK = 0;
+my $HS = 0;
 
 open (F, $FILE_INIT);
 while ($LINE = <F>) {
@@ -41,7 +43,7 @@ while ($LINE = <F>) {
 
                 $TEST_ICMP = &ping($IP);
 
-                $A++;
+                $NB++;
            }
         } else {
 
@@ -51,7 +53,14 @@ while ($LINE = <F>) {
 }
 close F;
 
-print "\n";
+print "\n\n";
+print $CO_O . "Total: ". $NB;
+print $CO_N . " - ";
+print $CO_V . " OK: ". $OK; 
+print $CO_N . " - ";
+print $CO_R . " HS: ". $HS;
+print $CO_N . "\n\n";
+ 
 
 exit;
 
@@ -67,9 +76,11 @@ sub ping {
         if ($p->ping($IP)) {
                 print $CO_V .$IP. $CO_N ."|";
                 $TEST_ICMP = true;
+		$OK++;
         } else {
                 print $CO_R .$IP. $CO_N ."|";
                 $TEST_ICMP = false;
+		$HS++;
         }
 
         return ($TEST_ICMP);

@@ -21,8 +21,8 @@ my $user 	= "admin";
 my $line 	= "";
 my $host	= "";
 my @List_HOST;
-my $FILE 	= 'host.ini';
-my $FILE_OUT 	= 'cisco-cmd.out';
+my $FILE 	= 'CONF/host.ini';
+my $FILE_OUT 	= 'OUT/cisco-cmd.out';
 
 $CMD[0]  	= 'show clock';
 

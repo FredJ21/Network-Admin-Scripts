@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+# permet de mettre les mots de passe dans un fichier externe
+
+$password    = "cisco";
+$enable_pass = "en_pass";
+
+
