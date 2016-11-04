@@ -3,10 +3,26 @@
 
 import socket
 import os
+import argparse
+
+parser = argparse.ArgumentParser()
+
+
+parser.add_argument('-H', action='store', dest='IP',
+                    default=[],
+                    help='IP or Hostname',
+                   )
+ 
+parser.add_argument('-P', action='store', dest='Port',
+                    default=[],
+                    help='TCP Port (default:80)',
+                    )
+
+args = parser.parse_args()
+
+
 
 my_conf = "host.ini"
-
-
 
 CO_V = "\033[1;32m"; #vert
 CO_R = "\033[1;31m"; #rouge
@@ -15,12 +31,27 @@ CO_B = "\033[1;34m"; #bleu
 CO_N = "\033[0;39m"; #normal
 
 
-fo = open(my_conf, "r")
-lines = fo.readlines()
-fo.close
 
 
-for i in range(	len(lines)):
+# Mode ping host
+if (args.IP):
+	if (len(args.Port) == 0 ):  
+		args.Port = 80;
+
+	print "OK"
+
+
+	exit(0)
+
+# Mode lecture du fichier de conf
+else:
+
+   fo = open(my_conf, "r")
+   lines = fo.readlines()
+   fo.close
+
+
+   for i in range(	len(lines)):
 
 	lines[i] = lines[i].rstrip()
 
